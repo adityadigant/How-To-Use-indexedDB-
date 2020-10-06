@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    
+
+</head>
+<body>
+    
+    <button onclick="onstart()">Create DB</button>
+    <button onclick="adding()">Add Info to DB</button>
+    <button onclick="readingdata()">Read Data</button>
+    <button  onclick="readalldata()">Read All Data</button>
+    
+    <div class="mdc-card mdc-card--outlined">
+      <div class="all_details"></div>
+      </div>
+
+      <div id="root" class="mdc-card">
+       
+      </div>
+   
+      
+   <p id="name"></p>
+    <p id="age"></p>
+    <p id="email"></p>
+    <p id="cursor_id"></p>
+    <p id="cursor_age"></p>
+    <p id="cursor_email"></p>
+    
+</body>
+<script src="main.js"></script>
+</html>
